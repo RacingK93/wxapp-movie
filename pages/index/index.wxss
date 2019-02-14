@@ -1,0 +1,40 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  font-family: "Microsoft Yahei";
+}
+.content{
+  background-color: #3a3a3a;
+  min-height: 100%;
+}
+swiper-item image{
+  width: 100%;
+}
+.movieBox{
+  width: 100%;
+  padding-top:10px;
+  display:flex;
+  flex-flow:row wrap;
+}
+.movie{
+  box-sizing:border-box;
+  flex:0 0 33.3333%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.pic image{
+  width: 100px;
+  height: 150px;
+  vertical-align: top;
+}
+.title{
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+  font-size: 12px;
+  padding-top: 5px;
+  line-height: 20px;
+  height: 20px;
+  text-align: center;
+  overflow: hidden;
+}

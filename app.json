@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#09bb07",
+    "backgroundColor": "#000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "当前热映",
+      "iconPath": "icon/tabbar/normal/电影.png",
+      "selectedIconPath": "icon/tabbar/selected/电影.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "影院选择",
+      "iconPath": "icon/tabbar/normal/影院.png",
+      "selectedIconPath": "icon/tabbar/selected/影院.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "查询",
+      "iconPath": "icon/tabbar/normal/查询.png",
+      "selectedIconPath": "icon/tabbar/selected/查询.png"
+    }]
+  }
+}
